@@ -4,45 +4,22 @@ var hero = {
       identity:"Peter Parker", 
       power:"strength, spidey sense, wall-crawling",
       enemy:"Venom"
-    },
-  hulk: { 
-      codename:"Incredible Hulk", 
-      identity:"Bruce Banner", 
-      power:"strength, resistance",
-      enemy:"Abomination"
-    },
-  wolverine: { 
-      codename:"Wolverine", 
-      identity:"Logan", 
-      power:"regeneration, heightened senses, retractable claws",
-      enemy:"Sabretooth"
-    },
-  captainAmerica: { 
-      codename:"Captain America", 
-      identity:"Steve Rogers", 
-      power:"strength, agility",
-      enemy:"Red Skull"
     }
  };
 
 
 $('button').on('click', function(){
+  // This variable stores the value of your input field
   var input = $('input').val();
-  var counter = 0;
-  for (var h in hero){
-    if (input == hero[h].codename){
-      $('h3').text(hero[h].codename);
-      $('h5').text(hero[h].identity);
-      $('.power').text(hero[h].power);
-      $('.enemy').text(hero[h].enemy);
-    } else {
-      counter++
-    }
-  }
-  if (counter === 4) {
-    $('h5').text("Not found. Try again.");
-    $('h3').text(" ");
-    $('.power').text(" ");
-    $('.enemy').text(" ");
-  }
-})
+  
+});
+
+// Remember append()?
+$('header').append('<h2></h2>');
+
+// Meet text()!
+// This will add text to HTML elements
+// And it will replace any text that's already there
+$('h2').text("Find your hero!");
+
+// Hint: Use .append() and/or .text() in your on('click') function!
