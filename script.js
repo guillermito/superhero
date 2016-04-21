@@ -1,9 +1,7 @@
 var hero = {
   spiderman: { 
-      codename:"Spider-Man", 
-      identity:"Peter Parker", 
-      power:"strength, spidey sense, wall-crawling",
-      enemy:"Venom"
+      name1:value1, 
+      name2:value2
     }
  };
 
@@ -13,7 +11,9 @@ $('button').on('click', function(){
   var input = $('input').val();
   
 });
-
+// ***************************** 
+// NOTES
+// *****************************
 // Remember append()?
 $('header').append('<h2></h2>');
 
@@ -22,3 +22,18 @@ $('header').append('<h2></h2>');
 $('h2').text("Find your hero!");
 
 // Hint: Use .append() and/or .text() in your on('click') function!
+
+// *****************************
+// Getting values from objects
+/*
+var car = {make:"Volkswagen", model:"Beetle", color:"red"};
+console.log(car.color);
+*/
+
+// *****************************
+// For..in loops
+/*
+for (var name in object) {
+  console.log(object[name]);
+}
+*/
