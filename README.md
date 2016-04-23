@@ -35,7 +35,7 @@
   
   Check to see if your code works!
   
-  CSS:
+## CSS:
   1. Change the font of the "body" tag to: Helvetica, Arial, sans-serif
   2. Add margin: 0 auto to all "div" tags
   3. Add a background color to your "searchbox" div
