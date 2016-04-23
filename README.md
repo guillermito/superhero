@@ -17,7 +17,8 @@
     * an h5 tag with the class "realname"
     * a p tag with the class "power"
     * a p tag with the class "enemy"
-    * Remember to close your tags!
+  
+Remember to close your tags!
   
 ## JS:
   1. Create a "hero" object that contains at least 4 heroes with the following properties:
